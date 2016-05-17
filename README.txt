@@ -51,16 +51,13 @@ Examples:
 
 $ python DecayGenerator.py -i graph_example.csv -m betweenness
 
- This will read graph_example and calculate its decay under a betweenness attack over the nodes. Results will be stored
- on the current location.
+This will read graph_example and calculate its decay under a betweenness attack over the nodes. Results will be stored on the current location.
 
 $ python DecayGenerator.py -i graph_example.csv -m betweenness -o decay/results/ -e
 
- This will read graph_example and calculate its decay under a betweenness attack over the edges. Results will be saved
- on the folder results that is located on the folder named decay. Note that these folders must already exist.
+This will read graph_example and calculate its decay under a betweenness attack over the edges. Results will be saved on the folder results that is located on the folder named decay. Note that these folders must already exist.
 
 $ python DecayGenerator.py -g 3 2.1 100 powerLaw/graphs/ -o powerLaw/results/ -m betweenness degree
 
- This will generate 3 power law graphs with coefficient 2.1 and 100 nodes, the graphs will be saved on 'powerLaw/graphs/'.
- The results of the attacks will be saved on 'powerLaw/results/'. For each type of attack, and each graph there will be
- a csv file with the results.
+This will generate 3 power law graphs with coefficient 2.1 and 100 nodes, the graphs will be saved on 'powerLaw/graphs/'.
+The results of the attacks will be saved on 'powerLaw/results/'. For each type of attack, and each graph there will be a csv file with the results.
