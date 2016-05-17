@@ -1,2 +1,0 @@
-igraph==0.1.8
-powerlaw==1.3.5

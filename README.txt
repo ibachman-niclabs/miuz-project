@@ -1,11 +1,8 @@
 
-First install the python dependencies using:
+This code runs in python using the igraph library. 
+Please install them. Instructions can be found in:
 
-$ pip install -r requirements.txt
-
-if you’re on the miuz-project directory or
-
-$ pip install -r pathto/requirements.txt
+http://igraph.org/python/
 
 ——————————————————————————————————————————————————————————————
 To simulate an attack over a graph run DecayGenerator.py
