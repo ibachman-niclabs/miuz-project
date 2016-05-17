@@ -1,4 +1,13 @@
 
+First install the python dependencies using:
+
+$ pip install -r requirements.txt
+
+if you’re on the miuz-project directory or
+
+$ pip install -r pathto/requirements.txt
+
+——————————————————————————————————————————————————————————————
 To simulate an attack over a graph run DecayGenerator.py
 
 DecayGenerator.py -h will display the necessary information about it.
